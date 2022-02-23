@@ -157,7 +157,7 @@ function callback_for_setting_up_scripts() {
  */
 function send_comment_rating($data)
 {
-	$url = 'http://localhost/rating-api/public/api/add_rating';
+	$url = 'https://okantastan.com/rating-task/public/api/add_rating';
 	$curl = curl_init($url);
 	curl_setopt($curl, CURLOPT_URL, $url);
 	curl_setopt($curl, CURLOPT_POST, true);
